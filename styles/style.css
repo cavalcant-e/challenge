@@ -53,6 +53,7 @@ main{
     background: white;
     border-radius: 32px;
     background-image: url(/assets/imagemMsg_Nao_Encontrada.PNG);
+    background-position: center;
     background-repeat: no-repeat;
     color: #0A3871 ;
     margin-left: 98px;
@@ -151,8 +152,8 @@ main{
     padding: 24px;
     gap: 8px;
 
-    width: 184px;
-    height: 33px;
+    width: 167px;
+    height: 67px;
     background: #0A3871;
     border-radius: 24px;
 
