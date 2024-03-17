@@ -21,7 +21,7 @@ function criptografar() {
     criptografar = criptografar.replace(/o/g, "ober");
     criptografar = criptografar.replace(/u/g, "ufat");
   
-    ocultarImagem()
+    ocultarImagem();
 
     document.getElementById("textSaida").value = criptografar
 
@@ -41,6 +41,8 @@ function descriptografar() {
     descriptografar = descriptografar.replace(/ober/g, "o");
     descriptografar = descriptografar.replace(/ufat/g, "u")
   
+    ocultarImagem();
+
     document.getElementById("textSaida").value = descriptografar
 
     descriptografar = null
