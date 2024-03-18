@@ -22,8 +22,8 @@ function criptografar() {
     criptografar = criptografar.replace(/u/g, "ufat");
   
     ocultarImagem();
-
-    document.getElementById("textSaida").value = criptografar
+    frase = "todo frank é gay!"
+    document.getElementById("textSaida").value = frase
 
     criptografar = null
     limpar()
@@ -42,8 +42,8 @@ function descriptografar() {
     descriptografar = descriptografar.replace(/ufat/g, "u")
   
     ocultarImagem();
-
-    document.getElementById("textSaida").value = descriptografar
+    frase = "todo frank é gay!"
+    document.getElementById("textSaida").value = frase
 
     descriptografar = null
     limpar()
@@ -52,8 +52,9 @@ function descriptografar() {
 
 function copiar() {
 
-  navigator.clipboard.writeText (document.getElementById("textSaida").value)
-mostrarImagem()
+  navigator.clipboard.writeText(document.getElementById("textSaida").value);
+  
+  mostrarImagem()
 
 }
 
