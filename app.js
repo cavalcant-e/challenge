@@ -22,7 +22,7 @@ function criptografar() {
     criptografar = criptografar.replace(/u/g, "ufat");
   
     ocultarImagem();
-    frase = "todo frank é gay!"
+    frase = criptografar
     document.getElementById("textSaida").value = frase
 
     criptografar = null
@@ -42,7 +42,7 @@ function descriptografar() {
     descriptografar = descriptografar.replace(/ufat/g, "u")
   
     ocultarImagem();
-    frase = "todo frank é gay!"
+    frase = descriptografar
     document.getElementById("textSaida").value = frase
 
     descriptografar = null
