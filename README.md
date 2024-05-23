@@ -1,6 +1,6 @@
 ## Codificador de Texto Livre em JavaScript
 Descrição
-Este projeto JavaScript, desenvolvido no Vscode, oferece um codificador de texto livre para você enviar mensagens secretas para seus amigos! Digite sua mensagem original e utilize o algoritmo de codificação para transformá-la em um código indecifrável.
+Este projeto JavaScript e CSS, desenvolvido no Vscode, oferece um codificador de texto livre para você enviar mensagens secretas para seus amigos! Digite sua mensagem original e utilize o algoritmo de codificação para transformá-la em um código indecifrável.
 ### Funcionalidades
 +	Codificação e decodificação de texto livre.
 +	Interface amigável para digitar e visualizar mensagens.
